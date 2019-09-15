@@ -56,12 +56,12 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "location": {
-      "model": "location"
-    },
     "userinfo": {
       "model": "userinfo",
       "via": "user"
+    },
+    "location": {
+      "model": "location"
     }
   }
 }

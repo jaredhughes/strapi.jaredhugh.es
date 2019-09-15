@@ -7,10 +7,7 @@
   },
   "options": {
     "increments": true,
-    "timestamps": [
-      "created_at",
-      "updated_at"
-    ],
+    "timestamps": ["created_at", "updated_at"],
     "comment": ""
   },
   "attributes": {
@@ -18,9 +15,6 @@
       "model": "user",
       "via": "userinfo",
       "plugin": "users-permissions"
-    },
-    "location": {
-      "model": "location"
     },
     "firstname": {
       "type": "string"
@@ -30,6 +24,9 @@
     },
     "email": {
       "type": "string"
+    },
+    "location": {
+      "model": "location"
     }
   }
 }

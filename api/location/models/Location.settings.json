@@ -7,27 +7,23 @@
   },
   "options": {
     "increments": true,
-    "timestamps": [
-      "created_at",
-      "updated_at"
-    ],
+    "timestamps": ["created_at", "updated_at"],
     "comment": ""
   },
   "attributes": {
-    "City": {
+    "city": {
       "required": true,
       "type": "string"
     },
-    "Country": {
-      "unique": true,
+    "country": {
       "required": true,
       "type": "string"
     },
-    "Latitude": {
+    "latitude": {
       "required": true,
       "type": "string"
     },
-    "Longtitude": {
+    "longtitude": {
       "required": true,
       "type": "string"
     }
