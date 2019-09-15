@@ -6,10 +6,7 @@
     "description": ""
   },
   "options": {
-    "timestamps": [
-      "created_at",
-      "updated_at"
-    ]
+    "timestamps": ["created_at", "updated_at"]
   },
   "attributes": {
     "username": {
@@ -59,9 +56,6 @@
     "userinfo": {
       "model": "userinfo",
       "via": "user"
-    },
-    "location": {
-      "model": "location"
     }
   }
 }
