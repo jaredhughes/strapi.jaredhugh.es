@@ -19,11 +19,11 @@
       "required": true,
       "type": "string"
     },
-    "lat": {
+    "latitude": {
       "required": true,
       "type": "string"
     },
-    "lon": {
+    "longitude": {
       "required": true,
       "type": "string"
     }
