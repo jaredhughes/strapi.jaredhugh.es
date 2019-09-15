@@ -1,0 +1,35 @@
+{
+  "connection": "default",
+  "collectionName": "userinfos",
+  "info": {
+    "name": "userinfo",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "user": {
+      "model": "user",
+      "via": "userinfo",
+      "plugin": "users-permissions"
+    },
+    "location": {
+      "model": "location"
+    },
+    "firstname": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}

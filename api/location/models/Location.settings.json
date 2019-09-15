@@ -1,0 +1,35 @@
+{
+  "connection": "default",
+  "collectionName": "locations",
+  "info": {
+    "name": "location",
+    "description": "Public location data"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "City": {
+      "required": true,
+      "type": "string"
+    },
+    "Country": {
+      "unique": true,
+      "required": true,
+      "type": "string"
+    },
+    "Latitude": {
+      "required": true,
+      "type": "string"
+    },
+    "Longtitude": {
+      "required": true,
+      "type": "string"
+    }
+  }
+}
